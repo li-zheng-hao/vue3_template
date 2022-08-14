@@ -10,7 +10,7 @@ const clicked = ():void => {
 </script>
 
 <template>
-
+  <i class="fa fa-plus" aria-hidden="true" style="color: red"></i>
   <h1>{{path}}</h1>
   <button @click="clicked"> click change to login</button>
 </template>
